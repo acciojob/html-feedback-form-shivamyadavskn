@@ -9,8 +9,17 @@
 	<form>
 		<fieldset>
 			<legend>Feedback Form</legend>
-			<label for="name" id="name" name="name">Name</label>
-			<input type="text" id="name" name="name" min="3" maxlength="50"><br>
+			
+			<label for="name" id="name" name="name"> Name</label>
+			<input type="text" id="name" name="name" minlength="3" maxlength="50" required><br>
+			
+			<label for="favColor" id="favColor" name="favColor"> favColor</label>
+			<input type="color" id="favColor" name="favColor"><br>
+			
+			<label for="likeness" id="likeness" name="likeness"> likeness</label>
+			<input type="range" max="100" name="range" id="likeness"><br>
+			
+			<input type="submit" value="submit">
 		</fieldset>
 	</form>
 </body>
